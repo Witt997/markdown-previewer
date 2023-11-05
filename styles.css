@@ -1,0 +1,24 @@
+body {
+  background-color: lightyellow;
+}
+
+#editor {
+width: 60em;
+height: 30em;
+margin: 0 auto;
+padding: 10px;
+resize: vertical; /* Allow vertical resizing */
+overflow: auto; /* Enable scrollbars when content exceeds the height */
+}
+
+
+#preview {
+  overflow: auto;
+  resize: horizontal;
+  width: "400px";
+  height: "50vh";
+  margin-left: "auto";
+  margin-right: "auto";
+  padding:"10px";
+}
+
